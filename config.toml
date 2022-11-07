@@ -1,4 +1,4 @@
-baseurl = "https://blist.vercel.app"
+baseurl = "https://rsprice.github.io"
 metaDataFormat = "yaml"
 title = "Blist Multilingual Theme"
 theme = "blist"
