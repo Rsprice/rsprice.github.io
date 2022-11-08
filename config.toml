@@ -1,4 +1,4 @@
-baseurl = "https://blist.vercel.app/"
+baseurl = "https://rsprice.github.io/"
 metaDataFormat = "yaml"
 title = "Blist Multilingual Theme"
 theme = "myblist"
@@ -11,7 +11,7 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! I'm Katheryn Fox"
+      introTitle = "Hey! I'm Katheryn Foxx"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
       logo = "/blist-logo.png"
