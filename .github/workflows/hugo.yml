@@ -36,6 +36,17 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+        
+      - name: Install dependencies
+        run: |
+          npm install -g postcss-cli
+          npm install -g autoprefixer
+          
       - name: Checkout
         uses: actions/checkout@v3
         with:
