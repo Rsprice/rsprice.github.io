@@ -13,7 +13,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hey! I'm Katheryn Foxx"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
-      introPhoto = "https://blist.vercel.app/picture.jpg"
+      introPhoto = "https://raw.githubusercontent.com/Rsprice/rsprice.github.io/941e95bfd5aa478ee57ab7a7b36ebf2cbc6a41da/picture.jpg"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
