@@ -1,7 +1,7 @@
 baseurl = "https://blist.vercel.app/"
 metaDataFormat = "yaml"
 title = "Blist Multilingual Theme"
-theme = "blist"
+theme = "myblist"
 
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
