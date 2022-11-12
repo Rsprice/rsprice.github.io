@@ -77,9 +77,7 @@ DefaultContentLanguageInSubdir = false
   dribbble = "https://dribbble.com/"
   stackoverflow = "https://stackoverflow.com/"
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
+
 
 [build]
   writeStats = true
